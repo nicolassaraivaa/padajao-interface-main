@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Link as ReactLink } from "react-router-dom"; 
 
-import BackgroundLogin from '../../assets/background-login.svg'
+import BackgroundLogin from '../../assets/background-login.png'
 import Background from '../../assets/background.svg'
 
 
@@ -17,14 +17,14 @@ export const LeftContainer = styled.div`
 
     height: 100%;
     width: 100%;
-    max-width: 50%;
+    max-width: 40%;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
     img{
-        width: 60%;
+        width: 70%;
     }
 `
 export const RightContainer = styled.div`
@@ -38,7 +38,7 @@ export const RightContainer = styled.div`
 
     height: 100%;
     width: 100%;
-    max-width: 50%;
+    max-width: 60%;
 
     p{
         color: #ffff;
@@ -52,7 +52,7 @@ export const RightContainer = styled.div`
 `
 export const Title = styled.h2`
     font-family: "Road Rage", sans-serif;
-    color: #9758a6;
+    color: #EBB576;
     font-size: 40px;
     font-weight: 400;
 `

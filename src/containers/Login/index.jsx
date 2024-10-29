@@ -5,7 +5,7 @@ import { toast } from "react-toastify"
 import { useUser } from "../../hooks/UserContext"
 
 import {api} from '../../services/api'
-import Logo from '../../assets/logo-login.svg'
+import Logo from '../../assets/logo-login.png'
 import { Button } from '../../components/Button'
 import { useNavigate } from "react-router-dom"
 
@@ -74,7 +74,7 @@ export function Login() {
             </LeftContainer>
             <RightContainer>
                 <Title>
-                    Olá, seja bem vindo ao <span>Dev Burguer!</span>
+                    Olá, seja bem vindo a <span>Padajão!</span>
                     <br />
                     Acesse com seu <span>Login e senha.</span>
                 </Title>

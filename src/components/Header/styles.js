@@ -2,10 +2,16 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Container = styled.div`
-    background-color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    background-color: white;
     width: 100%;
-    height: 72px;
+    height: 120px;
     padding: 0 56px;
+    
+    img{
+        width: 100px;
+    }
 `
 
 export const Content = styled.div`
@@ -16,6 +22,8 @@ export const Content = styled.div`
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
+
+
 `
 
 export const Navigation = styled.nav`
@@ -38,15 +46,16 @@ export const Navigation = styled.nav`
 `
 
 export const HeaderLink = styled(Link)`
-    color: ${props => props.$isActive ? '#9758a6' : '#ffff' };
-    border-bottom: ${props => props.$isActive ?'1px solid #9758a6' : 'none'};
+    color: ${props => props.$isActive ? '#EBB576' : '#555555' };
+    border-bottom: ${props => props.$isActive ?'1px solid #EBB576' : 'none'};
     padding-bottom:5px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     transition: color 200ms;
+    font-weight: bold;
 
     &:hover{
-       color: #9758a6;
+       color: #EBB576;
     }
 `
 
@@ -62,17 +71,18 @@ export const Profile = styled.div`
     display: flex;
     align-items: center;
     gap: 12px;
-    font-size: 14px;
+    font-size: 16px;
 
     p{
-        color: white;
+        color: black;
         line-height: 90%;
-        font-weight: 300;
+        font-weight: 400;
     }
 
     span{
         font-weight: 700;
-        color: #9758a6;
+        color: #EBB576;
+
     }
 `
 

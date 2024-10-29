@@ -1,20 +1,24 @@
-import { OffersCarousel, CategoriesCarousel } from '../../components'
-import { 
-    Banner, 
+import { OffersCarousel, CategoriesCarousel, AnimatedText, MainServices } from '../../components'
+import {
+    Banner,
     Container,
-    
+
 } from './styles'
 
-export function Home(){
-    return(
+export function Home() {
+
+    return (
         <main>
             <Banner>
-                <h1>Bem-Vindo!</h1>
+                <AnimatedText />
             </Banner>
             <Container>
                 <div>
-                    <CategoriesCarousel/>
-                    <OffersCarousel/>
+                    <MainServices />
+
+                    <OffersCarousel />
+
+                    <CategoriesCarousel />
                 </div>
             </Container>
         </main>

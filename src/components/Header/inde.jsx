@@ -1,5 +1,6 @@
 import { UserCircle, ShoppingCart } from '@phosphor-icons/react'
 import { useNavigate, useResolvedPath } from 'react-router-dom';
+import Logo from '../../assets/logo-login.png'
 import {
     Container,
     HeaderLink,
@@ -15,35 +16,43 @@ import { useUser } from '../../hooks/UserContext';
 
 export function Header() {
     const navigate = useNavigate()
-    const {logout, userInfo} = useUser()
+    const { logout, userInfo } = useUser()
 
-    const {pathname} = useResolvedPath()
+    const { pathname } = useResolvedPath()
 
-    function logoutUser () {
+    function logoutUser() {
         logout()
         navigate('/login')
     }
 
     return (
         <Container>
+
             <Content>
+                <div>
+                    <img src={Logo} />
+                </div>
                 <Navigation>
                     <div>
-                        <HeaderLink to='/' $isActive={pathname === '/'}>Home</HeaderLink>
+                        <HeaderLink to='/' $isActive={pathname === '/'}>HOME</HeaderLink>
                         <hr></hr>
-                        <HeaderLink to='/cardapio' $isActive={pathname === '/cardapio'} >Cardápio</HeaderLink>
+                        <HeaderLink to='/cardapio' $isActive={pathname === '/cardapio'} >CARDÁPIO</HeaderLink>
+                        <hr />
+                        <HeaderLink to='/' $isActive={pathname === '/cardapio'} >SOBRE</HeaderLink>
+                        <hr />
+                        <HeaderLink to='/' $isActive={pathname === '/cardapio'} >CONTATO</HeaderLink>
                     </div>
                 </Navigation>
                 <Options>
                     <Profile>
-                        <UserCircle color="#ffff" size={27} />
+                        <UserCircle color="#000" size={30} />
                         <div>
                             <p>Olá, <span>{userInfo.name}</span></p>
                             <Logout onClick={logoutUser}>Sair</Logout>
                         </div>
                     </Profile>
                     <LinkContainer>
-                        <ShoppingCart to='/carrinho' color="#ffff" size={24} />
+                        <ShoppingCart to='/carrinho' color="#000" size={30} />
                         <HeaderLink to='/carrinho'>Carrinho</HeaderLink>
                     </LinkContainer>
                 </Options>

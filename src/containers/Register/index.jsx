@@ -4,7 +4,7 @@ import * as yup from "yup"
 import { toast } from "react-toastify"
 
 import { api } from '../../services/api'
-import Logo from '../../assets/logo-login.svg'
+import Logo from '../../assets/logo-login.png'
 import { Button } from '../../components/Button'
 import { useNavigate } from "react-router-dom"
 

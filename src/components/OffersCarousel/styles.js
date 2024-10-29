@@ -13,12 +13,25 @@ export const Container = styled.div`
     padding-left: 30px;
     padding-bottom: 40px;
 
+    .react-multiple-carousel__arrow--left {
+    left: 35px;
+    top: 10px;
+    }
+
+    .react-multiple-carousel__arrow--right {
+    right: 70px;
+    top: 10px;
+    }
+
+
 `
 
+
+
 export const Title = styled.h2`
-    font-size: 32px;
-    font-weight: 800;
-    color:#61a120;
+    font-size: 26px;
+    font-weight: 600;
+    color:#555555;
     padding-bottom: 12px;
     position: relative;
     text-align: center;
@@ -27,11 +40,11 @@ export const Title = styled.h2`
     &::after{
         content: '';
         position: absolute;
-        width: 56px;
-        height: 4px;
-        background-color: #61a120;
+        width: 150px;
+        height: 3px;
+        background-color: #EBB576;
         bottom: 0;
-        left: calc(50% - 28px);
+        left: calc(50% - 75px);
     }
 `
 

@@ -6,12 +6,22 @@ export const Container = styled.div`
         padding-right: 40px;
         padding-left: 30px
     }
+
+    .react-multiple-carousel__arrow--left {
+    left: 35px;
+    top: 70px;
+    }
+
+    .react-multiple-carousel__arrow--right {
+    right: 50px;
+    top: 70px;
+    }
 `
 
 export const Title = styled.h2`
     font-size: 32px;
     font-weight: 800;
-    color:#9758a6;
+    color:#555555;
     padding-bottom: 12px;
     position: relative;
     text-align: center;
@@ -23,7 +33,7 @@ export const Title = styled.h2`
         position: absolute;
         width: 56px;
         height: 4px;
-        background-color: #9758a6;
+        background-color: #EBB576;
         bottom: 0;
         left: calc(50% - 28px);
     }
@@ -53,7 +63,7 @@ export const CategoryButton = styled(Link)`
     text-decoration: none;
 
     &:hover{
-        background-color: #9758a6;
+        background-color: #EBB576;
     }
 
 `
