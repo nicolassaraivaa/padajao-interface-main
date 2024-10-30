@@ -10,6 +10,8 @@ export * from './CartItems'
 export * from './Stripe/CheckoutForm/'
 export * from './AnimatedText'
 export * from './MainServices'
+export * from './Counter'
+
 
 
 

@@ -1,4 +1,4 @@
-import { OffersCarousel, CategoriesCarousel, AnimatedText, MainServices } from '../../components'
+import { OffersCarousel, CategoriesCarousel, AnimatedText, MainServices, Counter } from '../../components'
 import {
     Banner,
     Container,
@@ -17,6 +17,8 @@ export function Home() {
                     <MainServices />
 
                     <OffersCarousel />
+                    
+                    <Counter/>
 
                     <CategoriesCarousel />
                 </div>

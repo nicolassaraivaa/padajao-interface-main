@@ -142,8 +142,8 @@ export const DivText = styled.div`
                 height: 2px;
                 background-color: #EBB576;
                 bottom: -12px;
-                left: calc(10% - 80px);
-        }
+                left: calc(15% - 120px);
+            }
         }
 
         .text{
