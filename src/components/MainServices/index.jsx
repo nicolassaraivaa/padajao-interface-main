@@ -1,5 +1,6 @@
-import { ChefHat, Coffee, ForkKnife, CookingPot } from '@phosphor-icons/react'
+import { ChefHat, Coffee, ForkKnife } from '@phosphor-icons/react'
 import { Container, Content, ContentText, ContentServices, ContentAbout, DivImage, DivText, Button } from './styles'
+import { GiSlicedBread } from "react-icons/gi";
 
 export function MainServices() {
     return (
@@ -19,7 +20,7 @@ export function MainServices() {
                     </div>
 
                     <div className='divservices'>
-                        <div className='divicon'><CookingPot size={65} color="#ffff" /></div>
+                        <div className='divicon'><GiSlicedBread size={70} color="#ffff" /></div>
                         <p className='ptitle'>INGREDIENTES FRESCOS</p>
                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     </div>

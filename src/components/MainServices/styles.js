@@ -163,6 +163,7 @@ export const Button = styled.button`
     height: 35px;
     border-radius: 3px;
     margin-top: 25px;
+    transition: background-color 0.8    s ease, transform 0.8s ease;
 
     &:hover{
         background-color: #F7F7F7;

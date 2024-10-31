@@ -11,6 +11,8 @@ export * from './Stripe/CheckoutForm/'
 export * from './AnimatedText'
 export * from './MainServices'
 export * from './Counter'
+export * from './OurChef'
+
 
 
 
