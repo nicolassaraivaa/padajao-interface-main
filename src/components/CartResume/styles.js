@@ -23,7 +23,7 @@ export const Container = styled.div`
             font-size: 20px;
             font-weight: 700;
             margin-bottom: 20px;
-            background-color: #484848;
+            background-color: gray;
             color: #ffff;
             width: 100%;
             padding: 15px;

@@ -12,11 +12,5 @@ export * from './AnimatedText'
 export * from './MainServices'
 export * from './Counter'
 export * from './OurChef'
-
-
-
-
-
-
-
-
+export * from './CommentClient'
+export * from './AboutUs/TextAbout'

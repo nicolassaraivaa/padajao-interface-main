@@ -74,9 +74,9 @@ export function Menu(){
         <Container>
             <Banner>
                 <h1>
-                 O MELHOR 
+                 A MELHOR 
                  <br />
-                 HAMBURGUER 
+                 PADARIA 
                  <br />
                  ESTÁ AQUI!
                  <span>Esse cardápio está irresistível!</span>

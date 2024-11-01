@@ -1,4 +1,4 @@
-import { OffersCarousel, CategoriesCarousel, AnimatedText, MainServices, Counter, OurChef } from '../../components'
+import { OffersCarousel, CategoriesCarousel, AnimatedText, MainServices, Counter, OurChef, CommentClient } from '../../components'
 import {
     Banner,
     Container,
@@ -21,6 +21,8 @@ export function Home() {
                     <Counter/>
 
                     <CategoriesCarousel />
+
+                    <CommentClient/>
 
                     <OurChef/>
                 </div>

@@ -1,16 +1,17 @@
 import styled from "styled-components";
-import Texture from '../../assets/texture.svg'
+import Texture from '../../assets/BackgroundCounter.png'
 import Background from '../../assets/background.svg'
 
 export const Container = styled.div`
     width: 100%;
     background-color: #f0f0f0;
     background: linear-gradient(
-        rgba(255,255,255, 0.4),
-        rgba(255,255,255, 0.4)
+        rgba(255,255,255, 0.9),
+        rgba(255,255,255, 0.9)
     ), 
     url('${Background}');
     min-height: 100vh;
+    
 `
 
 export const Banner = styled.div`
@@ -34,9 +35,10 @@ export const Title = styled.div`
     font-size: 32px;
     font-weight: 800;
     padding-bottom: 12px;
-    color: #61a120;
+    color: #555555;
     text-align: center;
     position: relative;
+    margin: 20px 0;
 
     &::after{
         position: absolute;
@@ -45,7 +47,7 @@ export const Title = styled.div`
         content: '';
         width: 56px;
         height: 4px;
-        background-color: #61a120;
+        background-color: #555555;
     }
 `
 
@@ -66,9 +68,9 @@ export const DivBack = styled.div`
 `
 
 export const ButtonBack = styled.button`
-    font-size: 20px;
-    color: #5C2669;
-    font-weight: 600;
+    font-size: 27px;
+    color: #555555;
+    font-weight: 900;
     text-decoration: none;
     background-color: transparent;
     border: none;

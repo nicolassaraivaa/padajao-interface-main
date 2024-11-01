@@ -35,11 +35,11 @@ export function Header() {
                 <Navigation>
                     <div>
                         <HeaderLink to='/' $isActive={pathname === '/'}>HOME</HeaderLink>
-                        <hr></hr>
+                        <hr/>
                         <HeaderLink to='/cardapio' $isActive={pathname === '/cardapio'} >CARDÁPIO</HeaderLink>
-                        <hr />
-                        <HeaderLink to='/' $isActive={pathname === '/cardapio'} >SOBRE</HeaderLink>
-                        <hr />
+                        <hr/>
+                        <HeaderLink to='/sobre-nos' $isActive={pathname === '/sobre-nos'} >SOBRE</HeaderLink>
+                        <hr/>
                         <HeaderLink to='/' $isActive={pathname === '/cardapio'} >CONTATO</HeaderLink>
                     </div>
                 </Navigation>

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BannerHamburger from '../../assets/bannerCardapio.svg'
+import BannerPadaria from '../../assets/bannerCardapio.png'
 import Background from '../../assets/background.svg'
 import { Link } from "react-router-dom";
 
@@ -7,13 +7,7 @@ import { Link } from "react-router-dom";
 export const Container = styled.div`
     width: 100%;
     min-height: 100vh;
-    background-color: #f0f0f0;
-
-    background: linear-gradient(
-        rgba(255,255,255, 0.4),
-        rgba(255,255,255, 0.4)
-    ), 
-    url('${Background}');
+    background-color: #ffff;
 `
 
 export const Banner = styled.div`
@@ -23,9 +17,9 @@ export const Banner = styled.div`
     height: 480px;
     position: relative;
 
-    background: url('${BannerHamburger}');
+    background: url('${BannerPadaria}');
     background-color: #1f1f1f;
-    background-position: center;
+    background-position: center bottom;
     background-size:cover;
 
     h1{
@@ -59,13 +53,13 @@ export const CategoryButton = styled(Link)`
     text-decoration: none;
     cursor: pointer;
     background: none;
-    color: ${(props) => props.$isActiveCategory ? '#9758a6' : '#696969'};
+    color: ${(props) => props.$isActiveCategory ? '#EBB576' : '#696969'};
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     padding-bottom: 5px;
     line-height: 20px;
     border: none;
-    border-bottom: ${(props) => props.$isActiveCategory && '3px solid #9758a6'};
+    border-bottom: ${(props) => props.$isActiveCategory && '3px solid #EBB576'};
 `
 
 export const ProductsContainer = styled.div`
@@ -85,10 +79,11 @@ export const DivBack = styled.div`
 `
 
 export const ButtonBack = styled(Link)`
-    font-size: 20px;
-    color: #5C2669;
-    font-weight: 600;
+    font-size: 27px;
+    color: #1f1f1f;
+    font-weight: 900;
     text-decoration: none;
+    margin: 40px 0;
 
     &:hover{
         opacity: 0.8;

@@ -18,12 +18,12 @@ export const ButtonGroup = styled.div`
         width: 30px;
         color: #ffff;
         border-radius: 4px;
-        background-color: #9758a6;
+        background-color: #EBB576;
         transition: all 0.4s;
         border: none;
 
         &:hover{
-            background-color: #6f357c;
+            opacity: 0.5;
         }
     }
 `

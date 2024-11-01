@@ -16,25 +16,26 @@ export function MainServices() {
                     <div className='divservices'>
                         <div className='divicon'><ChefHat size={65} color="#ffff" /></div>
                         <p className='ptitle'>MELHORES CHEFS</p>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p>Nossa equipe é composta pelos chefs mais talentosos e apaixonados da cidade.</p>
+
                     </div>
 
                     <div className='divservices'>
                         <div className='divicon'><GiSlicedBread size={70} color="#ffff" /></div>
                         <p className='ptitle'>INGREDIENTES FRESCOS</p>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p>Garantimos a qualidade e o frescor dos nossos produtos, utilizando apenas ingredientes selecionados.</p>
                     </div>
 
                     <div className='divservices'>
                         <div className='divicon'><Coffee size={65} color="#ffff" /></div>
                         <p className='ptitle'>SABORES ATRAENTES</p>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p>Oferecemos uma diversidade de sabores que encantam o paladar, com receitas cuidadosamente desenvolvidas.</p>
                     </div>
 
                     <div className='divservices'>
                         <div className='divicon'><ForkKnife size={65} color="#ffff" /></div>
                         <p className='ptitle'>PROFISSIONAIS</p>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p>Nossa equipe de profissionais é qualificada e dedicada a oferecer o melhor atendimento, proporcionando uma experiência única.</p>
                     </div>
                 </ContentServices>
 
@@ -47,11 +48,11 @@ export function MainServices() {
                     <div>
                         <h4 className='Title'>NOSSA PADARIA</h4>
 
-                        <p className='text'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi arquiteto beatae vitae dicta sunt explicabo.</p>
+                        <p className='text'>Nossa padaria nasceu do desejo de trazer sabores autênticos e caseiros para o dia a dia de nossos clientes. Cada receita é preparada com cuidado e dedicação, usando os melhores ingredientes para garantir qualidade e frescor.</p>
 
-                        <p className='text'>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt., neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+                        <p className='text'>Aqui, o aroma de pães e doces fresquinhos invade o ambiente, criando uma atmosfera acolhedora e convidativa. Nos orgulhamos em proporcionar uma experiência única, onde cada detalhe é pensado para oferecer o melhor.</p>
 
-                        <p className='text'>Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                        <p className='text'>Venha nos visitar e descubra o verdadeiro sabor de produtos feitos com amor e tradição. Estamos prontos para receber você e compartilhar nossa paixão pela boa padaria.</p>
 
                         <Button>LER MAIS</Button>
                     </div>

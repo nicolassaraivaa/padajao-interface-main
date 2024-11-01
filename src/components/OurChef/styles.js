@@ -65,10 +65,16 @@ export const ContentServices = styled.div`
         gap: 20px;
         padding: 25px;
         width: 18%;
+         
 
         img{
             width: 200px;
             border-radius: 100px;
+
+            &:hover{
+                cursor: pointer;
+                opacity: 0.8;
+            }
         }
         
     }
