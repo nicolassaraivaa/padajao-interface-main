@@ -14,3 +14,5 @@ export * from './Counter'
 export * from './OurChef'
 export * from './CommentClient'
 export * from './AboutUs/TextAbout'
+export * from './AboutUs/OurChefAbout'
+
