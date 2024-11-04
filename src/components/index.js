@@ -15,4 +15,6 @@ export * from './OurChef'
 export * from './CommentClient'
 export * from './AboutUs/TextAbout'
 export * from './AboutUs/OurChefAbout'
-
+export * from './AboutUs/FooterAbout'
+export * from './ContactUs/Ifreme'
+export * from './ContactUs/Places'

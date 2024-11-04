@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 
 import { Header } from "../components/Header/inde";
 import {Footer} from "../components/Footer/index"
-import { Cart, Login, Home, Menu, Register, CompletePayment, Checkout, AboutUs } from "../containers";
+import { Cart, Login, Home, Menu, Register, CompletePayment, Checkout, AboutUs, Contato } from "../containers";
 
 export const router = createBrowserRouter([
     {
@@ -50,6 +50,15 @@ export const router = createBrowserRouter([
             <>
                 <Header/>
                 <AboutUs />
+            </>
+        )
+    },
+    {
+        path: '/contato',
+        element: (
+            <>
+                <Header/>
+                <Contato />
             </>
         )
     }

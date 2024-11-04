@@ -1,15 +1,9 @@
 import styled from "styled-components";
-import Texture from '../../assets/BackgroundCounter.png'
-import Background from '../../assets/background.svg'
+import Texture from '../../assets/footer/BackgroundFooter.png'
 
 export const Container = styled.div`
     width: 100%;
     background-color: #f0f0f0;
-    background: linear-gradient(
-        rgba(255,255,255, 0.9),
-        rgba(255,255,255, 0.9)
-    ), 
-    url('${Background}');
     min-height: 100vh;
     
 `

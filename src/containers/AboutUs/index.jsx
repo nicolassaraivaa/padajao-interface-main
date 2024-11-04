@@ -1,5 +1,5 @@
 import { Banner } from "./styles";
-import {TextAbout, OurChefAbout} from '../../components'
+import {TextAbout, OurChefAbout, FooterAbout} from '../../components'
 
 export function AboutUs() {
 
@@ -10,6 +10,7 @@ export function AboutUs() {
             </Banner>
             <TextAbout/>
             <OurChefAbout/>
+            <FooterAbout/>
         </main>
     )
 }

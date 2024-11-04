@@ -1,4 +1,4 @@
-import Logo from '../../assets/logo-login.png'
+import Logo from '../../assets/logo-footer.png'
 import { CartItems, CartResume } from '../../components'
 import { useNavigate } from 'react-router-dom'
 import { 

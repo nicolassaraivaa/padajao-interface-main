@@ -1,6 +1,6 @@
 import Carousel from "react-multi-carousel"
 import 'react-multi-carousel/lib/styles.css'
-import Logo from '../../assets/logo-login.png'
+import Logo from '../../assets/logo-footer.png'
 
 import { Container, 
     Product1, 

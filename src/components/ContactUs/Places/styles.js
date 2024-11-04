@@ -61,6 +61,7 @@ export const ContentText = styled.div`
 `;
 
 export const ContentServices = styled.div`
+    background-color: #ffff;
     margin-top: 40px;
     max-width: 400px; 
     display: flex;
@@ -72,20 +73,8 @@ export const ContentServices = styled.div`
     cursor: grab;
 `;
 
-export const DivImg = styled.div`
-    img{
-        width: 215px;
-        border-radius: 150px;
 
-        &:hover{
-            cursor: pointer;
-            opacity: 0.8;
-        }
-    }
-
-`
-
-export const Ptitle = styled.p`
+export const City = styled.p`
     font-size: 16px;
     font-weight: bold;
     color:#555555 ;

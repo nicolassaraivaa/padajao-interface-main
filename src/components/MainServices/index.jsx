@@ -1,8 +1,11 @@
 import { ChefHat, Coffee, ForkKnife } from '@phosphor-icons/react'
 import { Container, Content, ContentText, ContentServices, ContentAbout, DivImage, DivText, Button } from './styles'
 import { GiSlicedBread } from "react-icons/gi";
+import { useNavigate } from 'react-router-dom';
 
 export function MainServices() {
+    const navigate = useNavigate()
+
     return (
         <Container>
             <Content>
@@ -54,7 +57,7 @@ export function MainServices() {
 
                         <p className='text'>Venha nos visitar e descubra o verdadeiro sabor de produtos feitos com amor e tradição. Estamos prontos para receber você e compartilhar nossa paixão pela boa padaria.</p>
 
-                        <Button>LER MAIS</Button>
+                        <Button onClick={() => navigate('/sobre-nos')}>LER MAIS</Button>
                     </div>
                 </DivText>
             </ContentAbout>
