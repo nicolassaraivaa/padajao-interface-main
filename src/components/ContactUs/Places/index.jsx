@@ -1,5 +1,7 @@
 import { Container, Content, ContentText, ContentServices, City, Description } from './styles';
 
+import { RiMapPinFill } from "react-icons/ri";
+import { BsFillTelephoneFill } from "react-icons/bs";
 import Carousel from "react-multi-carousel";
 
 export function Places() {
@@ -52,8 +54,14 @@ export function Places() {
                     {places.map((place, index) => (
                         <ContentServices key={index}>
                             <City>{place.city}</City>
-                            <Description>{`Endereço: ${place.address}`}</Description>
-                            <Description>{`Telefone: ${place.phone}`}</Description>
+                            <Description>
+                                <RiMapPinFill color='#EBB576'/> 
+                                 {` ${place.address}`}
+                                </Description>
+                            <Description>
+                                <BsFillTelephoneFill color='#EBB576'/>
+                                {` ${place.phone}`}
+                            </Description>
                         </ContentServices>
                     ))}
                 </Carousel>

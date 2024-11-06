@@ -26,7 +26,7 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-    width: 70%;
+    width: 80%;
 `;
 
 export const ContentText = styled.div`
@@ -63,7 +63,8 @@ export const ContentText = styled.div`
 export const ContentServices = styled.div`
     background-color: #ffff;
     margin-top: 40px;
-    max-width: 400px; 
+    max-width: 250px; 
+    height: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,6 +72,8 @@ export const ContentServices = styled.div`
     text-align: center;
     gap: 20px;
     cursor: grab;
+    margin-bottom: 70px;
+
 `;
 
 

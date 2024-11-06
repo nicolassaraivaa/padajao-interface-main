@@ -16,7 +16,7 @@ export function OurChefAbout() {
         { img: Kaique, name: "KINHO PHILIPS", description: "Com uma paixão por ingredientes frescos e sabores intensos, Kinho traz uma abordagem moderna aos clássicos da panificação. Sua habilidade em harmonizar sabores torna cada criação única." },
         { img: Guilherme, name: "GUILHERME RALF", description: "Focado na qualidade e precisão, Guilherme garante que cada produto saia da nossa padaria com o máximo de sabor e frescor. Sua expertise é fundamental para o sucesso das nossas receitas diárias." },
         { img: Robson, name: "ROBSON SARAIVA", description: "Robson é mestre em fermentação natural, trazendo autenticidade a cada pão produzido." },
-        { img: Josefo, name: "JOSEFO PITT", description: "Com experiência em técnicas tradicionais, Josefo combina inovação e sabor em cada criação." }
+        { img: Josefo, name: "JURANDIR PORKS", description: "Com experiência em técnicas tradicionais, Josefo combina inovação e sabor em cada criação." }
     ];
 
     const responsive = {

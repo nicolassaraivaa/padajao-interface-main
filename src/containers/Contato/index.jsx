@@ -1,5 +1,5 @@
 import { Banner } from "./styles";
-import {Ifreme, Places} from '../../components'
+import {Ifreme, Places, FooterAbout} from '../../components'
 
 export function Contato() {
 
@@ -10,7 +10,7 @@ export function Contato() {
             </Banner>
             <Ifreme/>
             <Places/>
-           {/* <FooterAbout/>*/}
+           <FooterAbout/>
         </main>
     )
 }
