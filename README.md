@@ -47,14 +47,14 @@ Este projeto é uma aplicação web desenvolvida com **React** e **Vite** para g
 
 2. Instale as dependências:
    ```bash
-npm install
-yarn install 
+   npm install
+   yarn install 
 
 
 3. Instale as dependências:
    ```bash
-npm run dev
-yarn dev
+   npm run dev
+   yarn dev
 
 ## 🌐 API
 Esta aplicação consome uma API local configurada no arquivo api.js.
