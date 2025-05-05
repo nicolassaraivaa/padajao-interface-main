@@ -35,7 +35,7 @@ Este projeto é uma aplicação web desenvolvida com **React** e **Vite** para g
 
 ### Pré-requisitos
 
-- Node.js (versão 18 ou superior)
+- Node.js 
 - npm ou yarn
 
 ### Passos
@@ -44,3 +44,18 @@ Este projeto é uma aplicação web desenvolvida com **React** e **Vite** para g
    ```bash
    gh repo clone nicolassaraivaa/padajao-interface-main
    cd padajao-interface
+
+2. Instale as dependências:
+npm install
+# ou
+yarn install 
+
+
+3. Instale as dependências:
+npm run dev
+# ou
+yarn dev
+
+## 🌐 API
+Esta aplicação consome uma API local configurada no arquivo api.js.
+
