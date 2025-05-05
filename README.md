@@ -46,14 +46,14 @@ Este projeto é uma aplicação web desenvolvida com **React** e **Vite** para g
    cd padajao-interface
 
 2. Instale as dependências:
+   ```bash
 npm install
-# ou
 yarn install 
 
 
 3. Instale as dependências:
+   ```bash
 npm run dev
-# ou
 yarn dev
 
 ## 🌐 API
